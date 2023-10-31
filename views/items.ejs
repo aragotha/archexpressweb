@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Items</title>
+</head>
+<body>
+  <h1>Items</h1>
+  <ul>
+    <% items.forEach(function(item) { %>
+      <li><%= item.name %></li>
+    <% }); %>
+  </ul>
+  <a href="/">Add more items</a>
+</body>
+</html>
